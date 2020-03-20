@@ -1,0 +1,307 @@
+@media screen and (max-width: 991px) {
+    .portfolio-content .portfolio-item{
+        margin-bottom: 0.5rem;
+    }
+    .portfolio-content a{
+        width: 5rem;
+        height: 15rem;
+        display: block;
+        position: relative;
+        z-index: 0;
+        transition: 0.5s;
+    }
+}
+@media screen and (max-width: 376px) {
+    .contact .contact-btn {
+        margin: 0px !important;
+    }
+}
+/* Start General Rules */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background: url('../images/1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+}
+/* Start Navbar Style */
+header .sidenav {
+    height: 100%;
+    width: 13%;
+    background-color: #1D809F !important;
+    position: fixed;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    transform: translateX(100%);
+    border-left: 1px solid #348DA9;
+    z-index: 999;
+  }
+header .nav-btn {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    width: 50px;
+    font-size: 1rem;
+    padding: 15px 10px;
+    background-color: rgba(150,153,157,0.5);
+    border: none;
+}
+header .nav-btn:hover {
+    background-color: #343a40;
+}
+header .nav-header {
+    padding: 15px 20px;
+    background-color: #1F7996;
+    display: flex;
+    justify-content: space-between;
+}
+header .nav-header p{
+    color: white;
+    font-weight: normal;
+    font-size: 1.2rem;
+    margin: 0px;
+    cursor: pointer;
+}
+header .nav-header div {
+    width: 3.25rem;
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 15px 10px;
+    background-color: #29596B;
+    border:none;
+}
+header .large-nav a {
+    color: white;
+    padding: 20px;
+}
+header .large-nav a:hover {
+    background-color: rgba(255,255,255,.2);
+}
+header .med-nav a {
+    color: white;
+    font-weight: bold;
+}
+header .med-nav a:hover {
+    background-color: rgba(255,255,255,.2);
+}
+/* End Navbar Style */
+/* Start Header Style */
+header .header-content {
+    height: 100vh;
+    align-items: center;
+    font-weight: 1000;
+    overflow: hidden;
+}
+header .header-content h1 {
+    color: #212529;
+    font-size: 6rem;
+    margin-top: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header .header-content p {
+    font-weight: 600;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+header .header-content a {
+    color: #FFF;
+    background-color: #1D809F;
+    padding: 18px 35px;
+}
+/* End Header Style */
+/* Start about Style */
+.about {
+    padding: 7.5rem 0px;
+}
+.about h3 {
+    font-weight: bolder;
+    font-size: 2.5rem;
+    color: #515A5A;
+}
+.about p {
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    color: #909497;
+}
+.about .about-btn {
+    background-color: #343A40;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    padding: 1rem 3rem;
+}
+/* End about Style */
+
+/* Start services style */
+.services
+{
+    background-color: #1D809F;
+    padding: 110px 0px;
+}
+.services h6 {
+    color: #ECB856;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.services h3 {
+    color: white;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.services .services-content {
+    padding: 2rem 0px;
+    width: 90%;
+}
+.services .services-content i {
+    background-color: white;
+    width: 8rem;
+    height: 8rem;
+    color: #1D809F;
+    padding-top: 2rem;
+    font-size: 4rem;
+}
+.services .services-content p{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0.9rem 0 0.5rem;
+}
+.services .services-content div {
+    color: #BCD9E2;
+    padding-bottom: 2rem;
+}
+/* End services style */
+
+/* Start Welcome section style */
+.welcome {
+    background: url('../images/2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-position: center center;
+    padding: 12.5rem 7rem 12.5rem 3rem;
+}
+.welcome h2{
+    font-weight: bolder;
+    font-size: 4rem;
+    width: 75%;
+    margin-bottom: 2.5rem;
+}
+.welcome a{
+    padding: 1.5rem 3rem;
+    border: none;
+    background-color: #1D809F;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.welcome a:hover {
+    background-color: #155d74;
+}
+/* End Welcome section style */
+
+/* Start Portfolio section style */
+.portfolio-content {
+    overflow: hidden;
+    padding: 6.25rem 0rem;
+}
+.portfolio-content .portfolio-content-heading h3 {
+    color: #ECB856;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.portfolio-content .portfolio-content-heading h2 {
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+.portfolio-content a{
+    width: 10rem;
+    height: 25rem;
+    display: block;
+    position: relative;
+    z-index: 0;
+    transition: 0.5s;
+}
+.portfolio-content .portfolio-item {
+    padding-left: 0px;
+    padding-right: 0px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.portfolio-content .portfolio-item .content {
+    position: absolute;
+    top: 17rem;
+    left: 5rem;
+    z-index: 2;
+    color: white;
+    overflow: hidden;
+}
+.portfolio-content .portfolio-item .content h3 {
+    text-transform: uppercase;
+}
+.portfolio-content .portfolio-item .pic {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    height: 100%;
+}
+.portfolio-content a:hover {
+    transform: scale(0.9);    
+}
+.portfolio-content a:hover .content {
+    text-decoration: underline;
+
+}
+/* End Portfolio section style */
+
+/* Start Contact Section Style */
+.contact {
+    overflow: hidden;
+    padding-top: 6.5rem;
+    padding-bottom: 6.5rem;
+}
+.contact  h3 {
+    line-height: 1.2;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+/* .contact .contact-btn-body {
+    width: 70%;
+} */
+.contact .contact-btn {
+    padding: 1.125rem 2.5rem;
+    font-weight: 600;
+    box-shadow: 1px 1px 5px #999C9F;
+}
+/* End Contact Section Style */
+/* Map Style */
+.map {
+    height: 30rem;
+}
+/* Footer Section style starts */
+footer {
+    padding: 5rem;
+}
+footer.footer .social-link {
+    display: block;
+    height: 4rem;
+    width: 4rem;
+    line-height: 4.3rem;
+    font-size: 1.5rem;
+    background-color: #1d809f;
+    transition: background-color .15s ease-in-out;
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,.1);
+}
+/* Footer Section style Ends */

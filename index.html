@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylish Portfolio</title>
+    <!-- Bootstrap Style link -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <!-- internal Style links -->
+        <link rel="stylesheet" href="asset/css/font-awesome.min.css">
+        <link rel="stylesheet" href="asset/css/style.css">
+</head>
+<body>
+    <header>
+        <!-- Nav bar Starts here -->
+            <!-- Large Screen -->
+                <div class="btn btn-secondary fa fa-bars d-none d-lg-block nav-btn"  onclick="openNav()">
+                </div>
+                <nav class="navbar d-none d-lg-block large-nav">
+                    <div class="sidenav bg-primary" id="mySidenav">
+                        <div class="container nav-header" onclick="closeNav()">
+                            <p> Start Bootstrap </p>
+                            <div class="btn btn-dark fa fa-close closebtn" ></div>
+                        </div>    
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            <!-- Meduim screen or lower -->
+                <div class="med-nav">
+                <nav class="navbar  d-sm-block d-lg-none sticky-top">
+                    <ul class="nav nav-pills nav-fill">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>   
+                        </li>
+                    </ul>
+                </nav>
+                </div>
+        <!-- Nav bar Ends here -->
+
+        <!-- content Start here -->
+        <div class="header-content d-flex" id="home">
+            <section class="container text-center">
+                <h1>Stylish Portfolio</h1>
+                <p>A Free Bootstrap Theme by Start Bootstrap</p>
+                <a href="#about" class="btn btn-primary btn-xl">Find Out More</a>
+            </section>
+        </div>
+    </header> 
+    <!-- About -->
+    <section class="container " id="about">
+        <div class="about text-center">
+            <h3>Stylish Portfolio is the perfect theme for your next project!</h3>
+            <p>This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at <a href="https://unsplash.com/" target="_blank">Unsplash</a>!</p>
+            <a href="#home" class="btn btn-primary about-btn">What We Offer</a>
+        </div>    
+    </section>
+
+    <!-- Services -->
+    <section class="services text-center" id="services">
+        <div class="container d-flex flex-column">
+            <h6>services</h6>
+            <h3>What We Offer</h3>
+            <article class="services-content">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <i class="fa fa-mobile fa-3x rounded-circle" aria-hidden="true"></i>
+                        <p>Responsive</p>
+                        <div>Looks great on any screen size!</div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <i class="fa fa-pencil fa-3x rounded-circle" aria-hidden="true"></i>
+                        <p>Redesigned</p>
+                        <div>Freshly redesigned for Bootstrap 4.</div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <i class="fa fa-thumbs-o-up fa-3x rounded-circle" aria-hidden="true"></i>
+                        <p>Favorited</p>
+                        <div>Millions of users <span class="fa fa-heart"></span> Start Bootstrap!</div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <i class="fa fa-question-circle-o fa-3x rounded-circle" aria-hidden="true"></i>
+                        <p>Question</p>
+                        <div>I mustache you a question...</div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+  <!-- welcome section -->
+  <section class="welcome">
+    <div class="container text-center">
+      <h2 class="mx-auto">Welcome to
+        <em>your</em>
+        next website!</h2>
+      <a class="btn btn-primary" href="https://startbootstrap.com/template-overviews/stylish-portfolio/" target="_blank">Download Now!</a>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section class="portfolio-content" id="portfolio">
+    <div class="container">
+        <div class="portfolio-content-heading text-center">
+            <h3>Portfolio</h3>
+            <h2>Recent Projects</h2>
+        </div>
+        <section class="row">
+            <a class="col-12 col-lg-6 portfolio-item" href="#home">
+                <articl class="content">
+                    <h3>Stationary</h3>
+                    <p>A yellow pencil with envelopes on a clean, blue backdrop!</p>
+                </articl>
+                <article class="pic">
+                    <img src="asset/images/5.jpg" alt="">
+                </article>
+            </a>
+            <a class="col-12 col-lg-6 portfolio-item" href="#home">
+                <articl class="content">
+                    <h3>ice cream</h3>
+                    <p>A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+                </articl>
+                <article class="pic">
+                    <img src="asset/images/4.jpg" alt="">
+                </article>
+            </a>
+            <a class="col-12 col-lg-6 portfolio-item" href="#home">
+                <articl class="content">
+                    <h3>Strawberries</h3>
+                    <p>Strawberries are such a tasty snack, especially with a little sugar on top!</p>
+                </articl>
+                <article class="pic">
+                    <img src="asset/images/3.jpg" alt="">
+                </article>
+            </a>
+            <a class="col-12 col-lg-6 portfolio-item" href="#home">
+                <articl class="content">
+                    <h3>Workspace</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </articl>
+                <article class="pic">
+                    <img src="asset/images/2.jpg" alt="">
+                </article>
+            </a>
+        </section>
+    </div>
+  </section>
+
+    <!-- Contact -->
+    <section class="contact bg-info text-white" id="contact">
+        <div class="container text-center">
+            <h3>The buttons below are impossible to resist...</h3>
+            <article class="contact-btn-body">
+                <a href="#home" class="btn btn-xl btn-light mr-4 contact-btn">Click Me!</a>
+                <a href="#home" class="btn btn-xl btn-dark contact-btn">Look at Me</a>
+            </article>
+        </div>
+    </section>
+
+    <!-- Map -->
+        <section id="contact" class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.976711279868!2d31.20501298488495!3d30.037525981884816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf504571befc31c47!2sinoledge!5e0!3m2!1sar!2seg!4v1583416817301!5m2!1sar!2seg" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            <br />
+            <small>
+            <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
+            </small>
+        </section>
+    <!-- Footer -->
+    <!-- Footer -->
+  <footer class="footer text-center">
+    <div class="container">
+      <ul class="list-inline mb-5">
+        <li class="list-inline-item">
+          <a class="social-link rounded-circle text-white mr-3" href="#">
+            <i class="fa fa-facebook"></i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="social-link rounded-circle text-white mr-3" href="#">
+            <i class="fa fa-twitter"></i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="social-link rounded-circle text-white" href="#">
+            <i class="fa fa-github"></i>
+          </a>
+        </li>
+      </ul>
+      <p class="text-muted small mb-0">Copyright &copy; Your Website 2019</p>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+    <!-- JS scripts -->
+    <script>
+    function openNav() {
+        document.getElementById("mySidenav").style.transform = "translateX(0)";
+    }
+    function closeNav() {
+        document.getElementById("mySidenav").style.transform = "translateX(100%)";
+    }
+</script>
+    <!-- Bootstrap JS & JQ Links -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
