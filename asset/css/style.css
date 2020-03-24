@@ -15,6 +15,16 @@
     .contact .contact-btn {
         margin: 0px !important;
     }
+    .footer {
+        text-align: center;
+        padding: 0%;
+    }
+    .links {
+        margin-top: 1rem;
+        display: flex;
+        width: 100vw;
+    }
+
 }
 /* Start General Rules */
 body {
